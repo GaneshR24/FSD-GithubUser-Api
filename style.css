@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&display=swap');
+:root {
+    --primary-bg-colour: rgb(202, 210, 197);
+    --primary-font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: var(--primary-bg-colour);
+    font-family: var(--primary-font-family);
+    font-size: 1rem;
+} 
+
+.bg-color{
+    background: #2F3D46;
+}
+
+.navbar {
+    padding: 1.5rem;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.navbar-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    top: 10%;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+}
+
+.img-class {
+    width: 30%;
+    object-fit: contain;
+} 
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 45%;
+    box-shadow: 0 0 3px black;
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1em;
+}
+
+.cards h1 {
+    font-size: 1.5rem;
+    width: 40%;
+    padding-right: 0.5em;
+}
+
+@media (max-width:568px) {
+    .cards {
+    width: 45%;
+    box-shadow: 0 0 3px black;
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.cards h1 {
+    font-size: 1.5rem;
+}
+
+}
